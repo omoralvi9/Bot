@@ -54,7 +54,7 @@ let gifPath = __dirname + '/Nayan/join/join.gif';
 axios.get(gifUrl, { responseType: 'arraybuffer' })
 .then(response => {
     fs.writeFileSync(gifPath, response.data);
-    return api.sendMessage("চলে এসেছি আমি রাহাদ বট🥀😉", event.threadID, () => api.sendMessage({ body: `${global.config.BOTNAME} 𝗖𝗼𝗻𝗻𝗲𝗰𝘁𝗲𝗱 ↤
+    return api.sendMessage("চলে এসেছি আমি ওমর আলভী বট🥀😉", event.threadID, () => api.sendMessage({ body: `${global.config.BOTNAME} 𝗖𝗼𝗻𝗻𝗲𝗰𝘁𝗲𝗱 ↤
 🌱আ্ঁ'স্ঁ'সা্ঁ'লা্ঁ'মু্ঁ ও্ঁ'য়া্ঁ'লা্ঁ'ই্ঁ'কু্ঁ'ম্ঁ🥀🌼
 <------------------------------>  
 𝗕𝗼𝘁 𝗖𝗼𝗻𝗻𝗲𝗰𝘁𝗲𝗱 𝗦𝘂𝗰𝗰𝗲𝘀𝗳𝘂𝗹 !!! 
@@ -70,15 +70,15 @@ axios.get(gifUrl, { responseType: 'arraybuffer' })
 ۞ 𝗢𝘄𝗻𝗲𝗿 : 𝗠𝗼𝗵𝗮𝗺𝗺𝗮𝗱 𝗥𝗮𝗵𝗮𝗱 
 
 ✷ 𝗙𝗮𝗰𝗲𝗯𝗼𝗼𝗸: 
-https://www.facebook.com/md.rahad.hosain18
+https://www.facebook.com/omoralvi900
 
-❊ 𝗣𝗮𝗿𝘀𝗼𝗻𝗮𝗹 𝗙𝗮𝗰𝗲𝗯𝗼𝗼𝗸 : m.me/www.xnx.com9
+❊ 𝗣𝗮𝗿𝘀𝗼𝗻𝗮𝗹 𝗙𝗮𝗰𝗲𝗯𝗼𝗼𝗸 : m.me/www.omoralvi900
 
-✲ 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺: t.me/rabbyhosainRahad
+✲ 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺: t.me/omoralvi90
 
-❁ 𝗘𝗺𝗮𝗶𝗹: mdrahadhosain00@gmail.com
+❁ 𝗘𝗺𝗮𝗶𝗹: dangeromoralvi@gmail.com
 
-✿ 𝗪𝗣: 0131328**62`, attachment: fs.createReadStream(gifPath)}, threadID));
+✿ 𝗪𝗣: 01581033393`, attachment: fs.createReadStream(gifPath)}, threadID));
 })
 .catch(error => {
     console.error(error);
