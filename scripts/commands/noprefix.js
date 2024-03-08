@@ -16,7 +16,7 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 	var { threadID, messageID } = event;
 	if (event.body.indexOf("😍")==0 || event.body.indexOf("🖤")==0 || event.body.indexOf("💑")==0 || event.body.indexOf("🫂")==0) {
 		var msg = {
-				body: "         KINNA SONA🖤 \n\n𝗠𝗼𝗵𝗮𝗺𝗺𝗮𝗱 𝗥𝗮𝗵𝗮𝗱👑",
+				body: "         KINNA SONA🖤 \n\ᴏᴍᴏʀ ᴀʟᴠɪ👑",
 				attachment: fs.createReadStream(__dirname + `/noprefix/Rahad19.mp4`)
 			}
 			api.sendMessage( msg, threadID, messageID);
