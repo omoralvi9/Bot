@@ -67,7 +67,7 @@ axios.get(gifUrl, { responseType: 'arraybuffer' })
 <<<<<------------------------------>>>>>
 𝗔𝗻𝗱 𝗙𝗼𝗿 𝗔𝗻𝘆 𝗥𝗲𝗽𝗼𝗿𝘁 𝗢𝗿 𝗖𝗼𝗻𝘁𝗮𝗰𝘁 𝗕𝗼𝘁 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿
 
-۞ 𝗢𝘄𝗻𝗲𝗿 : 𝗠𝗼𝗵𝗮𝗺𝗺𝗮𝗱 𝗥𝗮𝗵𝗮𝗱 
+۞ 𝗢𝘄𝗻𝗲𝗿 : 𝙊𝙈𝙊𝙍 𝘼𝙇𝙑𝙄 
 
 ✷ 𝗙𝗮𝗰𝗲𝗯𝗼𝗼𝗸: 
 https://www.facebook.com/omoralvi900
@@ -111,10 +111,10 @@ https://www.facebook.com/omoralvi900
           `https://graph.facebook.com/${event.logMessageData.addedParticipants[o].userFbId}/picture?height=720&width=720&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662`), { responseType: "arraybuffer" })).data;
         var ok = [
           'https://i.imgur.com/dDSh0wc.jpeg',
-          'https://i.imgur.com/UucSRWJ.jpeg',
-          'https://i.imgur.com/OYzHKNE.jpeg',
-          'https://i.imgur.com/V5L9dPi.jpeg',
-          'https://i.imgur.com/M7HEAMA.jpeg'
+          'https://i.imgur.com/dDSh0wc.jpeg',
+          'https://i.imgur.com/dDSh0wc.jpeg',
+          'https://i.imgur.com/dDSh0wc.jpeg',
+          'https://i.imgur.com/dDSh0wc.jpeg'
         ]
         let background = (await axios.get(encodeURI(`${ok[Math.floor(Math.random() * ok.length)]}`), { responseType: "arraybuffer", })).data;
         fs.writeFileSync(pathAva, Buffer.from(avtAnime, "utf-8"));
